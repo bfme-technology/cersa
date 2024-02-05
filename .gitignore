@@ -94,3 +94,8 @@ out/
 #dotnet core application
 core/obj/
 core/bin/
+
+test/obj/
+test/bin/
+
+.vs/

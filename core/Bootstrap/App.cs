@@ -12,6 +12,9 @@ namespace CERSA.CORE.Bootstrap{
         }
         
         private void LoadAllSource(){
+            DotNetEnv.Env.Load();
+            SampleController.InitCore(1);
+
             _connection.On<int, string>(Constant.INIT, SampleController.InitCore);
             _connection.Listen();
         }
