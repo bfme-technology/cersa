@@ -1,7 +1,7 @@
-using CERSA.CORE.Entity;
+using CERSA.Core.Entity;
 using Microsoft.EntityFrameworkCore;
 
-namespace CERSA.CORE.Database{
+namespace CERSA.Core.Database{
     public class DatabaseContext : DbContext{
         public DbSet<SampleEntity> tbl_sample { get; set; }
         

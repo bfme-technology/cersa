@@ -98,4 +98,7 @@ core/bin/
 test/obj/
 test/bin/
 
+client/bin/
+client/obj/
+
 .vs/

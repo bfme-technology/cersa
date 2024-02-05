@@ -1,6 +1,6 @@
-using CERSA.CORE.Operations;
+using CERSA.Core.Operations;
 
-namespace CERSA.CORE.Controllers{
+namespace CERSA.Core.Controllers{
     public static class SampleController{
         static SampleOperation Operation; 
         static SampleController(){

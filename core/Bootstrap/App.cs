@@ -1,7 +1,7 @@
 
 using ElectronCgi.DotNet;
-using CERSA.CORE.Controllers;
-namespace CERSA.CORE.Bootstrap{
+using CERSA.Core.Controllers;
+namespace CERSA.Core.Bootstrap{
     public class App{
         protected Connection _connection {set;get;}
         public App(){
@@ -13,7 +13,7 @@ namespace CERSA.CORE.Bootstrap{
         
         private void LoadAllSource(){
             DotNetEnv.Env.Load();
-            SampleController.InitCore(1);
+            // SampleController.InitCore(1);
 
             _connection.On<int, string>(Constant.INIT, SampleController.InitCore);
             _connection.Listen();

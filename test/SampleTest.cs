@@ -1,4 +1,4 @@
-namespace CARSA.TEST
+namespace CARSA.Test
 {
     public class SampleTest
     {

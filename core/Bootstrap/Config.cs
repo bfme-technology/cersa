@@ -1,9 +1,9 @@
 
 using ElectronCgi.DotNet;
-using CERSA.CORE.Controllers;
+using CERSA.Core.Controllers;
 using DotNetEnv;
 using System.Collections.Immutable;
-namespace CERSA.CORE.Bootstrap{
+namespace CERSA.Core.Bootstrap{
     public static class Config{
         public static class Database{
             static Database(){

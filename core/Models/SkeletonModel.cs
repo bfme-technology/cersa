@@ -1,7 +1,7 @@
 using System.Text.Json.Serialization;
 using Newtonsoft.Json;
 
-namespace CERSA.CORE.Models{
+namespace CERSA.Core.Models{
     public abstract class SkeletonModel{
         
         [JsonProperty(PropertyName = "created_at")]

@@ -2,7 +2,7 @@ using System.Diagnostics.CodeAnalysis;
 using System.Text.Json.Serialization;
 using Newtonsoft.Json;
 
-namespace CERSA.CORE.Models{
+namespace CERSA.Core.Models{
     public class SampleModel: SkeletonModel{
         public SampleModel(){
 

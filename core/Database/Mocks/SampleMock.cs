@@ -1,8 +1,8 @@
 
-using CERSA.CORE.Entity;
+using CERSA.Core.Entity;
 using Microsoft.EntityFrameworkCore;
 
-namespace CERSA.CORE.Database.Mocks{
+namespace CERSA.Core.Database.Mocks{
     public static class SampleMock{
         public static void FeedData(ModelBuilder modelBuilder){
             modelBuilder.Entity<SampleEntity>()

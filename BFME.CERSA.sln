@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CERSA.CORE", "core\CERSA.CORE.csproj", "{283FCD4A-60FD-4A14-8ED8-E5EC5F100134}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CERSA.Core", "core\CERSA.Core.csproj", "{283FCD4A-60FD-4A14-8ED8-E5EC5F100134}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CERSA.TEST", "test\CERSA.TEST.csproj", "{82CEB0C7-3ED4-42B5-8510-4721066ECEA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CERSA.Test", "test\CERSA.Test.csproj", "{82CEB0C7-3ED4-42B5-8510-4721066ECEA9}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "CERSA.Client", "client\CERSA.Client.esproj", "{8E0804B7-17B2-4299-8925-7F01615130B5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,12 @@ Global
 		{82CEB0C7-3ED4-42B5-8510-4721066ECEA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82CEB0C7-3ED4-42B5-8510-4721066ECEA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82CEB0C7-3ED4-42B5-8510-4721066ECEA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E0804B7-17B2-4299-8925-7F01615130B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E0804B7-17B2-4299-8925-7F01615130B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E0804B7-17B2-4299-8925-7F01615130B5}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8E0804B7-17B2-4299-8925-7F01615130B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E0804B7-17B2-4299-8925-7F01615130B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E0804B7-17B2-4299-8925-7F01615130B5}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

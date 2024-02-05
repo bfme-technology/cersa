@@ -1,10 +1,11 @@
-﻿using CERSA.CORE.Entity;
+﻿using CERSA.Core.Entity;
 
 
 class Program
 {
     static void Main(string[] args)
     {
-        CERSA.CORE.Bootstrap.App app = new CERSA.CORE.Bootstrap.App();
+        // Console.WriteLine("This is Write Line");
+        CERSA.Core.Bootstrap.App app = new CERSA.Core.Bootstrap.App();
     }
 }
